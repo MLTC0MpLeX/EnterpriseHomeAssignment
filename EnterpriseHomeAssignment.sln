@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D44F884D-D1D2-4722-96E9-4F68E8C024F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9C5BB080-D995-440E-902F-5F0DC5D11780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{CE88A527-B6AF-46F2-9400-3387976F7AFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D44F884D-D1D2-4722-96E9-4F68E8C024F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44F884D-D1D2-4722-96E9-4F68E8C024F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44F884D-D1D2-4722-96E9-4F68E8C024F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44F884D-D1D2-4722-96E9-4F68E8C024F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5BB080-D995-440E-902F-5F0DC5D11780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5BB080-D995-440E-902F-5F0DC5D11780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5BB080-D995-440E-902F-5F0DC5D11780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5BB080-D995-440E-902F-5F0DC5D11780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE88A527-B6AF-46F2-9400-3387976F7AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE88A527-B6AF-46F2-9400-3387976F7AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE88A527-B6AF-46F2-9400-3387976F7AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE88A527-B6AF-46F2-9400-3387976F7AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

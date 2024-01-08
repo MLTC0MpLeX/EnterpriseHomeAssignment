@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj": {}
+    "C:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj": {
+    "C:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\babbe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\babbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
               "version": "[6.0.25, )"
             },
             "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.25, )"
             },

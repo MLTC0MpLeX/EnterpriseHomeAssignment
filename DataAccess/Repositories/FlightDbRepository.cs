@@ -2,22 +2,22 @@
 
 namespace DataAccess.Repositories;
 
-public class FlightDbRepository
+public class FlightDBRepository : IFlightDBRepository
 {
     private readonly AirlineDbContext _context;
 
-    public FlightDbRepository(AirlineDbContext context)
+    public FlightDBRepository(AirlineDbContext context)
     {
         _context = context;
     }
 
     public Flight GetFlight(int id)
     {
-        // Implement retrieval logic here
+        return _context.Flights.FirstOrDefault(f => f.Id == id);
     }
 
     public IEnumerable<Flight> GetFlights()
     {
-        // Implement retrieval logic here
+        return _context.Flights.ToList();
     }
 }

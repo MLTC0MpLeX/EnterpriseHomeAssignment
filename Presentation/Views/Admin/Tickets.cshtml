@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Common.Ticket>
+
+<h2>Tickets</h2>
+
+@foreach (var ticket in Model)
+{
+    <div>
+        <h3>Ticket for Flight @ticket.Id</h3>
+        <a href="@Url.Action("Ticket", "Admin", new { ticketId = ticket.Id })">View Ticket</a>
+    </div>
+}

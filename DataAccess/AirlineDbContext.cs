@@ -6,11 +6,16 @@ using Microsoft.EntityFrameworkCore;
 
 public class AirlineDbContext : DbContext
 {
+    public AirlineDbContext(DbContextOptions<AirlineDbContext> options)
+        : base(options)
+    {
+    }
     public DbSet<Flight> Flights { get; set; }
+    public DbSet<Seat> Seats { get; set; }
     public DbSet<Ticket> Tickets { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=AirlineDb;Trusted_Connection=True;");
+        optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=airline_db;Trusted_Connection=True;");
     }
 }

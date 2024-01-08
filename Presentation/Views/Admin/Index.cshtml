@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Common.Flight>
+
+    <h2>Flights</h2>
+
+    @foreach (var flight in Model)
+{
+    <div>
+        <h3>@flight.CountryFrom - @flight.CountryTo</h3>
+        <a href="@Url.Action("Tickets", "Admin", new { flightId = flight.Id })">View Tickets</a>
+        </div>
+}

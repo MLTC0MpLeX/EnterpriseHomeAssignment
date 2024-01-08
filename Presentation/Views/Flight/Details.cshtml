@@ -1,0 +1,31 @@
+﻿@model Common.FlightViewModel
+
+<!-- Other flight details... -->
+
+<table>
+    @for (var row = 1; row <= Model.Rows; row++)
+    {
+        <tr>
+            @for (var column = 1; column <= Model.Columns; column++)
+            {
+                var seat = Model.Seats.FirstOrDefault(s => s.Row == row && s.Column == column);
+                <td>
+                    @if (seat != null && seat.IsBooked)
+                    {
+                        <span>Booked</span>
+                    }
+                    else
+                    {
+                        <button onclick="bookSeat(@row, @column)">Book</button>
+                    }
+                </td>
+            }
+        </tr>
+    }
+</table>
+
+<script>
+    function bookSeat(row, column) {
+        // Call your backend to book the seat...
+    }
+</script>

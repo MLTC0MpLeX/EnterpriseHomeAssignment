@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Common.Flight>
+
+<h2>Available Flights</h2>
+
+@foreach (var flight in Model)
+{
+    <div>
+        <h3>@flight.CountryFrom - @flight.CountryTo</h3>
+        <p>Departure: @flight.DepartureDate</p>
+        <p>Seats Available: @flight.SeatsAvailable</p>
+        <a href="@Url.Action("Book", "Tickets", new { id = flight.Id })">Book Now</a>
+    </div>
+}

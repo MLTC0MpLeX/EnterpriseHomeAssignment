@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Common.Ticket>
+
+<h2>Your Tickets</h2>
+
+@foreach (var ticket in Model)
+{
+    <div>
+        <h3>Ticket for Flight @ticket.Id</h3>
+        <p>Price Paid: @ticket.PricePaid</p>
+    </div>
+}

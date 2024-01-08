@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "azVgT9ett3Qof5qo9Z2byEtyESzmxr1hfvkKpXExyxq/u495PXOR2X6GYACN+xkb48ZHWyYD1XcXqwNr6kmSDw==",
+  "dgSpecHash": "CpzpcyWVvqgVUZ0EKnB09Zg/YAkCVZKm2q+Y12/yjAAcOa+KnKl+gobi7/3xwbPTgkxoMXTxTMS/EvE6J2DlSg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\babbe\\RiderProjects\\EnterpriseHomeAssignment\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babbe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\babbe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
